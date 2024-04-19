@@ -1,0 +1,23 @@
+
+server:
+  port: 8095
+
+
+spring:
+    application:
+      name: User-Service-Security
+    datasource:
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: system
+      password: tiger
+
+
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
